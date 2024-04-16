@@ -90,6 +90,11 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.0.3"
+  flutter_localizations:
+    dependency: transitive
+    description: flutter
+    source: sdk
+    version: "0.0.0"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -100,6 +105,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  form_builder_validators:
+    dependency: "direct main"
+    description:
+      name: form_builder_validators
+      sha256: "19aa5282b7cede82d0025ab031a98d0554b84aa2ba40f12013471a3b3e22bf02"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "9.1.0"
   fuchsia_remote_debug_protocol:
     dependency: transitive
     description: flutter
@@ -110,6 +123,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  intl:
+    dependency: transitive
+    description:
+      name: intl
+      sha256: "3bc132a9dbce73a7e4a21a17d06e1878839ffbf975568bc875c60537824b0c4d"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.18.1"
   lints:
     dependency: transitive
     description:
@@ -269,4 +290,4 @@ packages:
     version: "3.0.2"
 sdks:
   dart: ">=3.2.3 <4.0.0"
-  flutter: ">=3.3.0"
+  flutter: ">=3.10.0"

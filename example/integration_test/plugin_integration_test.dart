@@ -14,12 +14,4 @@ import 'package:flutter_form_builder_kit/flutter_form_builder_kit.dart';
 
 void main() {
   IntegrationTestWidgetsFlutterBinding.ensureInitialized();
-
-  testWidgets('getPlatformVersion test', (WidgetTester tester) async {
-    final FlutterFormBuilderKit plugin = FlutterFormBuilderKit();
-    final String? version = await plugin.getPlatformVersion();
-    // The version string depends on the host platform running the test, so
-    // just assert that some non-empty string is returned.
-    expect(version?.isNotEmpty, true);
-  });
 }

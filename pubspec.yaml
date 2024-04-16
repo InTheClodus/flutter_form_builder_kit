@@ -47,9 +47,6 @@ flutter:
         pluginClass: FlutterFormBuilderKitPlugin
       windows:
         pluginClass: FlutterFormBuilderKitPluginCApi
-      web:
-        pluginClass: FlutterFormBuilderKitWeb
-        fileName: flutter_form_builder_kit_web.dart
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
